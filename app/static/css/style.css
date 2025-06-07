@@ -11,6 +11,7 @@ body {
     margin: 0;
     /* Opcional: para eliminar el margen predeterminado del body */
     font-family: "Revalia", sans-serif;
+    font-size: larger;
     gap: 20px;
 }
 
@@ -42,6 +43,10 @@ body {
     border: 1px solid #000000;
     border-radius: 20px;
     padding: 30px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Revalia", sans-serif;
+
 }
 
 .botones {
@@ -53,12 +58,14 @@ body {
     /* Opcional: alinea los botones verticalmente (en el centro) */
     gap: 10px;
     /* Opcional: espacio entre los botones y el elemento <number-flow-react> */
+    font-size: larger;
 }
 
 .botones button {
     /* Opcional: estilos para los botones */
     padding: 5px 10px;
-    font-size: 1em;
+    font-size: larger;
+    /* Tamaño de fuente para los botones */
     cursor: pointer;
 }
 
@@ -68,15 +75,21 @@ body {
     text-align: center;
 }
 
+.botones .contador {
+    /* Estilos para el contador (los que tenías en number-flow-react) */
+    width: 30px;
+    text-align: center;
+}
 .dado-bloque img {
     width: 100px;
     /* Ancho fijo de 300 píxeles */
     height: 100px;
     /* Alto fijo de 200 píxeles */
+    font-size: larger;
+    /* Tamaño de fuente para el texto dentro de la imagen */
 }
 
 .resultados {
     border: 1px solid #000000;
-    border-radius: 20px;
-    padding: 30px;
+
 }
